@@ -27,7 +27,7 @@ class _SideMenuState extends State<SideMenu> {
             title: Text('Home'),
             leading: Icon(
               Icons.home,
-              color: Colors.black,
+              color: Colors.pink,
             ),
             onTap: () => changePage(newPage: 'markdown/home.md'),
             autofocus: true),
@@ -51,7 +51,7 @@ class _SideMenuState extends State<SideMenu> {
                     title: Text('Guide'),
                     leading: Icon(
                       Icons.grid_view_rounded,
-                      color: Colors.black,
+                      color: Colors.pink,
                     ),
                   );
                 },
@@ -59,7 +59,7 @@ class _SideMenuState extends State<SideMenu> {
                   children: [
                     ListTile(
                         title: Text('Overview'),
-                        leading: Icon(Icons.adjust),
+                        leading: Icon(Icons.info, color: Colors.pink),
                         onTap: () =>
                             changePage(newPage: 'markdown/overview.md')),
                     Divider(
@@ -67,21 +67,19 @@ class _SideMenuState extends State<SideMenu> {
                       thickness: 1,
                     ),
                     ListTile(
-                        title: Text('Informações iniciais'),
-                        leading: Icon(Icons.adjust),
+                        title: Text('Migration Plan'),
+                        leading: Icon(Icons.map, color: Colors.pink),
                         onTap: () =>
-                            changePage(newPage: 'markdown/overview.md')),
+                            changePage(newPage: 'markdown/migration_plan.md')),
                     Divider(
                       height: 1,
                       thickness: 1,
                     ),
                     ListTile(
-                      title: Text('Fluxos'),
-                      leading: Icon(Icons.account_tree),
-                      onTap: () {
-                        Navigator.pushNamed(context, 'event_categories');
-                      },
-                    ),
+                        title: Text('Introduction to Jamstack'),
+                        leading: Icon(Icons.double_arrow, color: Colors.pink),
+                        onTap: () => changePage(
+                            newPage: 'markdown/introduction_to_jamstack.md')),
                   ],
                 ),
                 isExpanded: _isOpen[0]),

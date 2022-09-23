@@ -64,6 +64,9 @@ flutter:
   assets:
     - markdown/home.md
     - markdown/overview.md
+    - markdown/migration_plan.md
+    - markdown/introduction_to_jamstack.md
+    - media/img/under_construction.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
