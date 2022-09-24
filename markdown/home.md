@@ -1,17 +1,18 @@
-# O que é o produto FastStore?
-É uma evolução do Portal CMS Legado. Essa nova solução foi contruída para ser a nova forma e criar e implantar vitrines, visando atender as novas demandas dos clientes, tornando possível a maior personalização com base em estruturas [Jamstack](https://jamstack.org/).
-Exemplo de plataformas que usam Jamstack:
+# What is FastStore?
+It is an evolution of the Legacy CMS Portal. This new solution was built to be the new way to create and deploy showcases, aiming to meet the new demands of customers, making possible the highest customization based on [Jamstack](https://jamstack.org/) frameworks.
+
+Examples of platforms that use Jamstack:
 * [Gatsby](https://www.gatsbyjs.com/)
 * [Next.js](https://nextjs.org/)
 
-Essa nova solução segue os princípios do [Composable Commerce](https://vtex.com/en/blog/technology/composable-commerce-the-new-era-of-digital-transformation/) que está em alta no mercado internacional.
+This new solution follows the principles of [Composable Commerce](https://vtex.com/en/blog/technology/composable-commerce-the-new-era-of-digital-transformation/) that is on the rise in the international market
 ---
 
-# Soluções
-Com a utilização do Jamstack, é possível evitar alguns problemas que os clientes, principalmente os desenvolvedores, estavam enfrentando:
-1. Problemas de desempenho
-   * Utilização do Legacy CMS Portal e VTEX IO dificultam soluções que precisam de um alto desempenho; ❌
-   * Jamstack é constantemente utilizado para demandas de alto desempenho. ✅
-2. Limitações do Store Framework
-   * Por ser uma solução proprietária, os clientes dependem das decisões tomadas internamente a nível de tecnologia e a nível de correções; ❌
-   * Com a migração para o FastStore, o Jamstack possibilita mais subsídios, com ênfase na comunidade do código aberto e menos instabilidade. ✅
+# Key Points
+By using Jamstack, it is possible to avoid some problems that customers, especially developers, were facing:
+1. Performance problems
+   * Use of Legacy CMS Portal and VTEX IO hinder solutions that need high performance; ❌
+   * Jamstack is constantly used for high performance demands. ✅
+2. Store Framework Limitations
+   * Because it is a proprietary solution, customers depend on decisions made internally at the technology level and at the patch level; ❌
+   * With the migration to FastStore, Jamstack enables more subsidies, with an emphasis on the open source community and less instability. ✅
